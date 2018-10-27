@@ -1,4 +1,5 @@
 .babelrc
+.storybook
+stories
 lib
 CODE_OF_CONDUCT.md
-stories

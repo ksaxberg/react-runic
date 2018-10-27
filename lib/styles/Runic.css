@@ -1,12 +1,12 @@
 /* GLOBAL STYLES */
 
-.svg-holder {
+.react-runic-svg-holder {
   height: 100px;
   fill: currentColor;
   color: currentColor;
 }
 
-.svg-holder svg {
+.react-runic-svg-holder svg {
   width: 35px;
   height: 50px;
   margin-left: -6px;
@@ -16,75 +16,75 @@
   color: currentColor;
 }
 
-.svg-holder.size-7 svg {
+.react-runic-svg-holder.react-runic-size-7 svg {
   width: 7px;
   height: 10px;
   margin-left: -1px;
   margin-right: -1px;
 }
 
-.svg-holder.size-14 svg {
+.react-runic-svg-holder.react-runic-size-14 svg {
   width: 14px;
   height: 20px;
   margin-left: -2px;
   margin-right: -2px;
 }
-.svg-holder.size-21 svg {
+.react-runic-svg-holder.react-runic-size-21 svg {
   width: 21px;
   height: 30px;
   margin-left: -3px;
   margin-right: -3px;
 }
-.svg-holder.size-28 svg {
+.react-runic-svg-holder.react-runic-size-28 svg {
   width: 28px;
   height: 40px;
   margin-left: -4px;
   margin-right: -4px;
 }
-.svg-holder.size-35 svg {
+.react-runic-svg-holder.react-runic-size-35 svg {
   width: 35px;
   height: 50px;
   margin-left: -5px;
   margin-right: -5px;
 }
 
-.svg-holder.size-42 svg {
+.react-runic-svg-holder.react-runic-size-42 svg {
   width: 42px;
   height: 60px;
   margin-left: -6px;
   margin-right: -6px;
 }
-.svg-holder.size-49 svg {
+.react-runic-svg-holder.react-runic-size-49 svg {
   width: 49px;
   height: 70px;
   margin-left: -7px;
   margin-right: -7px;
 }
-.svg-holder.size-56 svg {
+.react-runic-svg-holder.react-runic-size-56 svg {
   width: 56px;
   height: 80px;
   margin-left: -8px;
   margin-right: -8px;
 }
-.svg-holder.size-63 svg {
+.react-runic-svg-holder.react-runic-size-63 svg {
   width: 63px;
   height: 90px;
   margin-left: -9px;
   margin-right: -9px;
 }
-.svg-holder.size-70 svg {
+.react-runic-svg-holder.react-runic-size-70 svg {
   width: 70px;
   height: 100px;
   margin-left: -10px;
   margin-right: -10px;
 }
-.svg-holder.size-77 svg {
+.react-runic-svg-holder.react-runic-size-77 svg {
   width: 77px;
   height: 110px;
   margin-left: -11px;
   margin-right: -11px;
 }
-.svg-holder.size-84 svg {
+.react-runic-svg-holder.react-runic-size-84 svg {
   width: 84px;
   height: 120px;
   margin-left: -12px;

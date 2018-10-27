@@ -34,9 +34,9 @@ export default class Runic extends React.PureComponent<Props> {
   }
 
   getClassName = () => {
-    const baseClass = 'svg-holder';
+    const baseClass = 'react-runic-svg-holder';
     if (this.props.size) {
-      return `${baseClass} size-${this.props.size}`;
+      return `${baseClass} react-runic-size-${this.props.size}`;
     }
     return baseClass;
   }

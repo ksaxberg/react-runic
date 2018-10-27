@@ -10,12 +10,11 @@ import Runic from '../lib/components/Runic';
 storiesOf('Runic', module)
   .addDecorator(withKnobs)
   .addDecorator(backgrounds)
-  .add('no text provided', () => (<Runic />))
-  .add('text provided', () => (
+  .add('explore all options', () => (
     <Runic
       style={object('Style', {})}
       text={text('Text: ', 'Hey there')}
-      size={select('Font Size', ['7', '14', '21', '28', '35', '42', '49', '56', '63', '70', '77', '84'])}
+      size={select('Font Size', ['7', '14', '21', '28', '35', '42', '49', '56', '63', '70', '77', '84'], '21')}
       compoundLetters={boolean('Compound Letters', true)}
       singleLetters={boolean('Single Letters', false)}
     />

@@ -11,7 +11,6 @@ type Props = {
 
 export default class Runic extends React.PureComponent<Props> {
   static defaultProps = {
-    text: 'Add Text',
     style: {},
   };
 

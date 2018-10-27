@@ -16,6 +16,11 @@
   },
   "author": "Kyle Saxberg <kylesaxberg@gmail.com>",
   "license": "ISC",
+  "storybook-deployer": {
+    "gitUsername": "ksaxberg",
+    "gitEmail": "kylesaxberg@gmail.com",
+    "commitMessage": "Deploy Storybook"
+  },
   "peerDependencies": {
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"

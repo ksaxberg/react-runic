@@ -1,7 +1,7 @@
 {
-  "name": "component-lib",
+  "name": "react-runic",
   "version": "0.1.0",
-  "description": "a test component library",
+  "description": "Render runic svgs",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",

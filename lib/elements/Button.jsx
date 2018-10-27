@@ -14,10 +14,10 @@ export default class Button extends React.PureComponent<Props> {
   };
 
   render() {
-      return (
-      <button style={this.style} onClick={this.props.onClick}>
-        {this.props.children}
-      </button>
-      );
+    return (
+    <button style={this.style} onClick={this.props.onClick}>
+      {this.props.children}
+    </button>
+    );
   }
 }

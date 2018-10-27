@@ -6,6 +6,7 @@ import { withKnobs, text, boolean, number } from '@storybook/addon-knobs/react';
 
 import { backgrounds} from './backgrounds';
 import Button from '../lib/elements/Button';
+import Runic from '../lib/components/Runic';
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
@@ -15,4 +16,10 @@ storiesOf('Button', module)
   )))
   .add('with some emoji', withNotes('Example note on emoji button')(() => (
     <Button onClick={action('clicked')}><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-  )));   
+  )));
+
+storiesOf('Runic', module)
+  .addDecorator(withKnobs)
+  .addDecorator(backgrounds)
+  .add('no text provided', () => (<Runic />))
+  .add('text provided', () => <Runic text={text('Text: ', 'Hey there')} />);

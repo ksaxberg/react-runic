@@ -1,11 +1,9 @@
 'use strict';
 
-var _Button = require('./elements/Button');
+var _Runic = require('./components/Runic');
 
-var _Button2 = _interopRequireDefault(_Button);
+var _Runic2 = _interopRequireDefault(_Runic);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-module.exports = {
-    Button: _Button2.default
-};
+module.exports = { Runic: _Runic2.default };

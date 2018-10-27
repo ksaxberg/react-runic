@@ -4,7 +4,7 @@
   "description": "Render runic svgs",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel lib -d build",
+    "build": "babel lib -d build --copy-files",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "flow": "flow",

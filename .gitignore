@@ -54,6 +54,7 @@ typings/
 
 # Editor stuff
 .vscode
+.idea
 
 # Yarn Integrity file
 .yarn-integrity

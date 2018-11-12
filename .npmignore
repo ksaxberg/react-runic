@@ -1,5 +1,6 @@
 .babelrc
 .storybook
+.vscode
 stories
 media
 lib
